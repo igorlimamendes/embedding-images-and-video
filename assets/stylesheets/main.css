@@ -1,0 +1,18 @@
+/* General style */
+* {box-sizing: border-box;}
+
+:root {
+    --white: #FFF;
+    --black: #000;
+    --bodyBackground: #F9F9F9;
+    --centerBtnBorder: #D3D3D3;
+    --centerBtnBackground: #F0F0F0;
+    --rightBtnSign: #065FD4;
+}
+
+body {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    background: var(--bodyBackground);
+    color: var(--black);
+}
