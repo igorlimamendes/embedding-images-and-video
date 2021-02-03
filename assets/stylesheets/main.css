@@ -16,3 +16,27 @@ body {
     background: var(--bodyBackground);
     color: var(--black);
 }
+
+/* Header */
+.header {
+    background: var(--white);
+    height: 3.5em;
+    font-size: 1.6em;
+    padding: 0 1em;
+}
+    .navigationFlex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .header__nav {
+        justify-content: space-between;
+        height: 3.5em;
+    }
+        .header__nav__btn {
+            border: none;
+            background: none;
+            outline: none;
+        }
+            .header__nav__btn--svg {height: 1.5em;}
