@@ -40,3 +40,9 @@ body {
             outline: none;
         }
             .header__nav__btn--svg {height: 1.5em;}
+    
+        .header__nav__left {
+            justify-content: flex-start;
+            min-width: 13em;
+        }
+            .leftYt {padding-left: 1em;}
