@@ -23,6 +23,15 @@ body {
     background: var(--bodyBackground);
     color: var(--black);
 }
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header"
+            "main aside"
+            "main aside";
+    }
 
 /* Header */
 .header {
