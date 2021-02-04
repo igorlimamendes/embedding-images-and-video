@@ -204,3 +204,34 @@ body {
             .main__channel__box--img {
                 border-radius: 50%;
             }
+
+            .main__channel__description {
+                padding: 0 1.5em;
+            }
+                .main__channel__description__header {
+                    margin: 1em 0 2em;
+                }
+                    .main__channel__description__header--heading {
+                        font-size: 1.4em;
+                        font-weight: bold;
+                    }
+
+                    .main__channel__description__header--subheading {
+                        font-size: 1.25em;
+                        opacity: .7;
+                        margin-top: .2em;
+                    }
+
+                .main__channel__description__article {
+                    font-size: 1.4em;
+                    line-height: 1.5;
+                }
+                    .main__channel__description__article p:nth-last-child(1) {
+                        font-size: .85em;
+                        font-weight: bold;
+                        opacity: .65;
+                    }
+
+                    .main__channel__description__article p:nth-last-child(2) {
+                        margin-bottom: .6em;
+                    }
