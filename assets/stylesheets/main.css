@@ -143,3 +143,12 @@ body {
         align-items: flex-end;
         justify-content: space-between;
     }
+        .main__info--heading {
+            font-size: 1.8em;
+        }
+
+        .main__info--subheading {
+            font-size: 1.4em;
+            opacity: .6;
+            padding-bottom: 1.5em;
+        }
