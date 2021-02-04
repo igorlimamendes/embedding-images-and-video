@@ -259,3 +259,7 @@ body {
         flex-flow: row nowrap;
         margin-bottom: 1em;
     }
+        .aside__video--img {
+            width: 17em;
+            height: 9em;
+        }
