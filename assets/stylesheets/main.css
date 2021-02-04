@@ -174,3 +174,19 @@ body {
                     padding-left: .3em;
                     font-weight: bold;
                 }
+            
+            .main__info__secondary__options {
+                width: 15em;
+                justify-content: space-between;
+                margin-left: 1em;
+            }
+                .main__info__secondary__options--svg {
+                    height: 1.7em;
+                    opacity: .5;
+                }
+
+                .main__info__secondary__options--text {
+                    font-weight: bold;
+                    opacity: .6;
+                    margin-left: .5em;
+                }
