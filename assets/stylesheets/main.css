@@ -254,3 +254,8 @@ body {
     grid-area: aside;
     margin-top: 2.5em;
 }
+    .aside__video {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-bottom: 1em;
+    }
