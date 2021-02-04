@@ -248,3 +248,9 @@ body {
                 font-size: 1.4em;
                 padding: .6em 1em;
             }
+
+/* Aside */
+.aside {
+    grid-area: aside;
+    margin-top: 2.5em;
+}
