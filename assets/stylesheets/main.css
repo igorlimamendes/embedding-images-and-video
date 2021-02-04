@@ -197,3 +197,10 @@ body {
         justify-content: space-between;
         border-bottom: .1em solid #E0E0E0;
     }
+        .main__channel__box {
+            align-items: flex-start;
+            padding: .5em 0;
+        }
+            .main__channel__box--img {
+                border-radius: 50%;
+            }
