@@ -263,3 +263,22 @@ body {
             width: 17em;
             height: 9em;
         }
+
+    .aside__video__titles {
+        margin: 0 1em;
+        width: 25em
+    }
+        .aside__video__titles--heading {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .aside__video__titles--subheading,
+        .aside__video__titles--lastSubheading {
+            font-size: 1.3em;
+            opacity: .65;
+        }
+
+        .aside__video__titles--subheading {
+            line-height: 2;
+        }
