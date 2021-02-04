@@ -156,3 +156,21 @@ body {
         .main__info__secondary {
             font-size: 1.4em;
         }
+            .main__info__secondary__likes {
+                border-bottom: .15em solid #909090;
+                align-items: center;
+                justify-content: space-between;
+                width: 10.5em;
+                padding: .9em .5em;
+                
+            }
+                .main__info__secondary__likes--img {
+                    width: 1.7em;
+                    opacity: .5;
+                }
+
+                .main__info__secondary__likes--text {
+                    opacity: .6;
+                    padding-left: .3em;
+                    font-weight: bold;
+                }
