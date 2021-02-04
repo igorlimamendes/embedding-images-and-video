@@ -235,3 +235,16 @@ body {
                     .main__channel__description__article p:nth-last-child(2) {
                         margin-bottom: .6em;
                     }
+
+        .main__channel__subscribe {
+            margin-top: 1.1em;
+        }
+            .main__channel__subscribe--button {
+                border: .1em solid var(--subscribeBtn);
+                border-radius: .2em;
+                background: var(--subscribeBtn);
+                color: var(--bodyBackground);
+                font-weight: bold;
+                font-size: 1.4em;
+                padding: .6em 1em;
+            }
