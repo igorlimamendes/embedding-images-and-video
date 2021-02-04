@@ -117,3 +117,10 @@ body {
                 font-weight: bold;
                 padding: .7em .6em;
             }
+
+/* Main */
+.main {
+    grid-area: main;
+    margin: 2.5em 2.5em 0 3.5em;
+    font-family: Roboto, Arial, sans-serif;
+}
