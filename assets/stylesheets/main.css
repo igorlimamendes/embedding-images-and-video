@@ -35,6 +35,17 @@ body {
             "main aside"
             "main aside";
     }
+        svg:hover,
+        button:hover,
+        .header__nav__center__btnBox,
+        .main__info__secondary__likes div:first-child,
+        .main__info__secondary__likes div:last-child,
+        .main__info__secondary__options div:nth-last-child(3),
+        .main__info__secondary__options div:nth-last-child(2),
+        .main__info__secondary__options div:nth-last-child(1),
+        .main__channel__description__article p:nth-last-child(1) {
+            cursor: pointer;
+        }
 
 /* Header */
 .header {
