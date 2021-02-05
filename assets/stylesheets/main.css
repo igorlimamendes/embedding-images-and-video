@@ -143,7 +143,9 @@ body {
             justify-content: flex-end;
             min-width: 13em;
         }
-            .rightBtnBar {margin: 0 1em;}
+            .rightBtnBar {
+                margin: 0 1em;
+            }
 
             .rightBtnSign {
                 border: .1em solid var(--rightBtnSign);
@@ -154,8 +156,16 @@ body {
                 align-items: center;
                 font-size: .9em;
                 font-weight: bold;
-                padding: .7em .6em;
+                padding: .5em .6em;
             }
+                .fa-user-circle {
+                    font-size: 1.6em;
+                    margin-right: .3em;
+                }
+
+                .rightBtnSign span {
+                    font-weight: bold;
+                }
 
 /* Main */
 .main {
