@@ -12,9 +12,12 @@
     --black: #000;
     --bodyBackground: #F9F9F9;
     --centerBtnBorder: #D3D3D3;
-    --centerBtnBackground: #F0F0F0;
+    --centerBtnBackground: #F8F8F8;
+    --centerBtnBackgroundHover: #F0F0F0;
     --rightBtnSign: #065FD4;
     --subscribeBtn: #CC0000;
+    --mainBorder: #E0E0E0;
+    --mainInfoSecondaryBorder: #909090;
 }
 
 body {
