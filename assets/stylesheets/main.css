@@ -109,7 +109,12 @@ body {
                     width: 100%;
                     height: 100%;
                     padding-left: .7em;
+                    outline: none;
                 }
+                    .centerInput:focus {
+                        border: .1em solid var(--rightBtnSign);
+                        box-shadow: inset 0 .1em 0 var(--centerBtnBorder);
+                    }
 
             .header__nav__center__btnBox {
                 border: .1em solid var(--centerBtnBorder);
@@ -119,13 +124,20 @@ body {
                 height: 100%;
                 text-align: center;
             }
+                .header__nav__center__btnBox:hover {
+                    background: var(--centerBtnBackgroundHover);
+                    box-shadow: 0 .1em 0 var(--centerBtnBackgroundHover);
+                }
+
                 .centerSearch {
                     opacity: .4;
                     font-size: .8em;
                     margin-top: .3em;
                 }
             
-            .header__nav__center__micBox {padding: .2em .5em 0;}
+            .header__nav__center__micBox {
+                padding: .2em .5em 0;
+            }
         
         .header__nav__right {
             justify-content: flex-end;
