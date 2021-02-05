@@ -323,11 +323,16 @@ body {
 
     .aside__video__titles {
         margin: 0 1em;
-        width: 25em
+        width: 21em;
     }
         .aside__video__titles--heading {
             font-size: 1.5em;
             font-weight: bold;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
         }
 
         .aside__video__titles--subheading,
