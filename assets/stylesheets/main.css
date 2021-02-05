@@ -360,3 +360,13 @@ body {
                 width: 100%;
             }
 }
+
+@media (max-width: 700px) {
+    .main__info {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }        
+        .main__info--subheading {
+            padding-bottom: .5em;
+        }
+}
