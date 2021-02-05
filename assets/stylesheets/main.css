@@ -370,3 +370,10 @@ body {
             padding-bottom: .5em;
         }
 }
+
+@media (max-width: 630px) {
+    .header__nav__center__inputBox,
+    .header__nav__center__btnBox {
+        display: none;
+    }
+}
