@@ -185,8 +185,8 @@ body {
         }
     
     .main__info {
-        border-bottom: .1em solid #E0E0E0;
-        padding: 1em 0 0em;
+        border-bottom: .1em solid var(--mainBorder);
+        padding-top: 1em;
         display: flex;
         flex-flow: row nowrap;
         align-items: flex-end;
@@ -206,7 +206,7 @@ body {
             font-size: 1.4em;
         }
             .main__info__secondary__likes {
-                border-bottom: .15em solid #909090;
+                border-bottom: .15em solid var(--mainInfoSecondaryBorder);
                 align-items: center;
                 justify-content: space-between;
                 width: 10.5em;
@@ -233,6 +233,9 @@ body {
                     height: 1.7em;
                     opacity: .5;
                 }
+                    .optionsBar:hover {
+                        opacity: .7;
+                    }
 
                 .main__info__secondary__options--text {
                     font-weight: bold;
