@@ -47,6 +47,11 @@ body {
             cursor: pointer;
         }
 
+        .anchorStyle {
+            text-decoration: none;
+            color: var(--black);
+        }
+
 /* Header */
 .header {
     grid-area: header;
