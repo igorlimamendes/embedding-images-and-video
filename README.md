@@ -2,7 +2,7 @@
 
 Clone of YouTube video player page.
 
-![Screenshot](assets/images/embedding-images-and-video)
+![Screenshot](assets/images/embedding-images-and-video.png)
 
 ## Build With
 
